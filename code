@@ -1,0 +1,50 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  // cout << 15 +45+40;
+  double paycheck;
+  double personal, essent, invest;
+
+  personal = .15;
+  essent = .45;
+  invest = .40;
+
+  cout << "Enter paycheck amount: ";
+  cin >> paycheck;
+
+  cout << "\nTotal Check Amount: " << paycheck << endl;
+
+  personal = personal * paycheck;
+  essent = essent * paycheck;
+  invest = invest * paycheck;
+
+  cout << "For Personal Expenses 15%: $" << personal << endl;
+  cout << "For Essentials/Bills 45%: $" << essent << endl;
+  cout << "For Investment 40%s: $" << invest << endl;
+
+}
+/*
+
+personal expenses 15%
+essentials 45%
+investments 40%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
